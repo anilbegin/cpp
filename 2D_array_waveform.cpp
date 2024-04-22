@@ -37,8 +37,10 @@ void waveForm(vector<vector<int>> arr, int nRows, int mCols) {
 int main() {
   vector<vector<int>> arr{{3, 4, 5, 1}, {6, 7, 8, 2}, {9, 10, 11, 3}};
 //  vector<vector<int>> arr{{1, 2, 3, 4}, {5, 6, 7, 8}, {3, 3, 2, 2}};
-  int nRows = 3;
-  int mCols = 4;
+  //int nRows = 3;
+  int nRows = arr.size();
+  //int mCols = 4;
+  int mCols = arr[0].size();
 /*
   cout<<"Enter the elements: "<<endl;
 // i - row, j - column
