@@ -1,6 +1,7 @@
 // pointers demo
 // size of Pointer should have been shown '8' in any case, but here always giving 4.
 // REASON: compiler version is 32bit, so sizeof(ptr) = 4.
+// check gcc -v , to know if gcc comiler is 32bit or 64bit
 // if compiler version owuld have been 64bits, then sizeof(ptr) = 8
 
 #include<iostream>
