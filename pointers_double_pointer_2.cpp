@@ -9,6 +9,7 @@ int main() {
 
   int **ptr2 = &ptr;
 
-  cout<<endl<<"&num: "<<&num;
-  cout<<endl<<"*ptr2: "<<*ptr2; // addr of num that is stored in *ptr
+  cout<<endl<<"&num: "<<&num; // 0x61ff08
+  cout<<endl<<"*ptr2: "<<*ptr2; // addr of num that is stored in *ptr // 0x61ff08
+  cout<<endl<<"ptr: "<<ptr; // 0x61ff08
 }
