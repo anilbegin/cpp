@@ -10,7 +10,7 @@ int partition(int arr[], int start, int end) {
   int count = 0;
 
   for(int i = start + 1; i<=end; i++) {
-    if(arr[i] <= pivot) count++;
+    if(arr[i] < pivot) count++;
   }
 
   // place pivot in the correct position
@@ -59,8 +59,8 @@ void print_array(int arr[], int size) {
 }
 
 int main() {
-  int arr[] = {2, 4, 1, 6, 9};
-  int n = 5;
+  int arr[] = {9, 4, 4, 8, 5, 6, 2, 3, 10, 1};
+  int n = 10;
 
   quick_sort(arr, 0, n-1);
   print_array(arr, n);
